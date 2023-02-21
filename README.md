@@ -36,7 +36,7 @@ To reproduce the results presented in the paper, proceed as follows:
 
 1. Acquire a new list of ontologies indexed at BioPortal (or use the exact same we provide as part of release `v0.0.1-alpha`)
 2. Use the [BioPortal REST API](http://data.bioontology.org/documentation) to download a snapshot of BioPortal as described [here](https://zenodo.org/record/439510#.YnUWiFzMJhE)
-3. Check which ontologies can be [loaded](https://github.com/supmaterial/iswc2022/blob/main/src/main/java/experiment/exp/corpus/LoadCheck.java#L50) with the OWLAPI
-4. Exclude ontologies [without](https://github.com/supmaterial/iswc2022/blob/main/src/main/java/experiment/exp/ontology/Profiling.java#L28) class expression axioms
+3. Check which ontologies can be [loaded](https://github.com/ckindermann/iswc-2022/blob/main/src/main/java/experiment/exp/corpus/LoadCheck.java#L50) with the OWLAPI
+4. Exclude ontologies [without](https://github.com/ckindermann/iswc-2022/blob/main/src/main/java/experiment/exp/ontology/Profiling.java#L28) class expression axioms
 5. Run the regularity discovery executable (of release `v.0.0.1-alpha`) on the remaining ontologies
 6. Analyse the data 
